@@ -1,6 +1,6 @@
-# CS1101S Game of Tones — MIDI to Source Pipeline
+# CS1101S Game of Tones - MIDI to Source Pipeline
 
-**Winner of the CS1101S Game of Tones contest (AY2025/26)**
+**Winner of the CS1101S Game of Tones contest (AY2025/26 Sem 1)**
 
 A small Python pipeline that converts a MIDI file into Source code for NUS CS1101S's sound contest. The generated program plays the first 49 seconds of [Lagtrain by inabakumori](https://www.youtube.com/watch?v=UnIhRpIT7nc), reconstructed entirely from MIDI data.
 
@@ -28,7 +28,7 @@ Full write-up: [Using Python to Win a JavaScript Contest](https://kubogi.github.
 
 ---
 
-## Running it
+## Quickstart
 
 **Requirements:** Python 3, [MidiFile](https://pypi.org/project/MIDIFile/)
 
@@ -41,7 +41,7 @@ Output is written to `output.txt`. The final Source code in `lagtrain_source.js`
 
 ---
 
-## Limitations
+## Notes
 
 This pipeline is Lagtrain-specific. A few things are hardcoded:
 
