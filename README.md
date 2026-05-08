@@ -22,8 +22,7 @@ Full write-up: [Using Python to Win a JavaScript Contest](https://kubogi.github.
 ├── main.py                 # MIDI parser and code generator
 ├── lagtrain_cut.mid        # MIDI source file (cut to 49s)
 ├── output.txt              # Intermediate generated output
-├── test.txt
-├── tmp.txt
+├── test.txt, tmp.txt       # leftover scratch files from development
 └── lagtrain_source.js      # Final Source program
 ```
 
@@ -34,7 +33,7 @@ Full write-up: [Using Python to Win a JavaScript Contest](https://kubogi.github.
 **Requirements:** Python 3, [MidiFile](https://pypi.org/project/MIDIFile/)
 
 ```bash
-pip install mido
+pip install MidiFile
 python main.py
 ```
 
